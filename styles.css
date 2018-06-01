@@ -1,0 +1,52 @@
+body {
+  background-color: #ddd;
+  font-family: sans-serif;
+}
+#container {
+  padding: 15px;
+  width: 90%;
+  min-height: 100vh;
+  background-color: #fff;
+  margin: auto;
+}
+#header {
+  border-bottom: 1px dotted black;
+}
+h1 {
+  margin-top: 0px;
+  float: left;
+}
+#right {
+  float: right;
+  padding-top: 15px;
+}
+#header a {
+  text-decoration: none;
+  color: #000;
+}
+#header a:hover {
+  color: #555;
+}
+#right {
+  font-size: 90%;
+}
+#content {
+  padding-top: 15px;
+}
+.hidden {
+  display: none;
+}
+.pic {
+  width: 100%;
+}
+.piccontainer {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  border: 1px dotted grey;
+  min-height: 300px;
+}
+
+.thumbnail {
+  width: 200px;
+}
